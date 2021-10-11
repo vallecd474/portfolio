@@ -1,0 +1,217 @@
+.icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+
+  :root {
+      --primary: rgb(255, 255, 255);
+  }
+
+  a {
+      color: var(--primary);
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: black;
+}
+
+/* small devices */
+
+/* header */
+
+.top-list {
+    padding-top: 30px; 
+    justify-content: center;
+}
+
+.social-list {
+    padding-top: 50px;
+} 
+
+/* close header */
+
+/* main */
+
+.main-section1 {
+    height: 550px;
+}
+
+.title {
+    padding-top: 50px;
+    padding-left: 100px;
+    color: var(--primary);
+}
+
+.span {
+    padding-right: 5px;
+    padding-left: 5px;
+    color: black;
+    background-color: var(--primary);
+    border-radius: 10px;
+}
+
+.intro {
+    font-size: 30px;
+}
+
+.name {
+    font-size: 50px;
+}
+
+.job-title {
+    font-size: 30px;
+}
+
+.img-fluid1 {
+    padding-top: 50px;
+    padding-left: 70px; 
+}
+
+.bio {
+    text-align: center;
+    color: var(--primary);
+}
+
+.bio-info {
+    text-align: justify;
+    font-size: 25px;
+    color: var(--primary);
+}
+
+.main-section3 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.sub-header {
+    padding-top: 50px;
+    text-align: center; 
+    color: var(--primary);
+}
+
+.img-fluid2 {
+    padding-top: 50px;
+    padding-left: 120px;
+}
+
+/* close main */
+
+/* footer */
+
+.footer {
+    height: 100px;
+    border-top: 5px solid white;
+}
+
+.foot-divs {
+    padding-top: 50px;
+    padding-left: 200px;
+    color: var(--primary);
+}
+
+
+/* end footer */
+
+/* end of small devices */
+
+/* medium devices */
+
+@media (min-width: 768px) {
+
+    /* main */
+
+    .title {
+        position: relative;
+        top: 100px;
+        right: 50px;
+    }
+
+    .span {
+        padding-top: 0px;
+    }
+
+    .img-fluid1 {
+        position: absolute;
+        top: 80px;
+        right: 0px;
+    }
+
+    .img-fluid2 {
+        padding-left: 200px;
+    }
+
+    /* close main */
+
+    /* footer */
+
+    .foot-divs {
+        position: relative;
+        left: 50px;
+    }
+
+     /* close footer */
+
+}
+
+/* end of medium devices */
+
+/* large devices */
+
+@media (min-width: 992px) {
+
+/* header */
+
+.social-list {
+    position: absolute;
+    top: -20px;
+    left: 250px;
+}
+
+/* close header */
+
+/* main */
+
+.main-section1 {
+    height: 760px;
+}
+
+.title {
+    position: relative;
+    top: 200px;
+}
+
+.img-fluid1 {
+    position: relative;
+    top: 170px;
+    left:  80px;
+}
+
+.main-section2 {
+    height: 650px;
+}
+
+.bio-info {
+    padding-top: 150px;
+}
+
+.img-fluid2 {
+    position: relative;
+    right: 65px;
+}
+
+.img-link {
+    padding-left: 260px;
+}
+
+/* close main */
+
+}
+
+/* end of large devices */
